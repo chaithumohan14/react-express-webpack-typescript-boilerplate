@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useContext } from "react";
 import { Route, Switch, Link } from "react-router-dom";
 import Home from "./pages/Home";
 
@@ -7,7 +7,6 @@ interface Props {}
 const App = (props: Props) => {
   return (
     <div>
-      App Pa
       <Switch>
         <Route path="/" exact>
           <Home />
